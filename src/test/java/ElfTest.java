@@ -1,15 +1,9 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import LOTR.Character;
-<<<<<<< HEAD
-import LOTR.*;
-=======
-import LOTR.Hobbit;
-import LOTR.Elf;
->>>>>>> 7cbca69 (Ultimate commit)
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import LOTR.Character;
+import LOTR.*;
+
 
 public class ElfTest {
     private Character character;
