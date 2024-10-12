@@ -6,7 +6,11 @@ import LOTR.Strategies.NobleKick;
 
 public abstract class Noble extends Character{
     public Noble(int min, int max){
-        super(new Random().nextInt(min, max), new Random().nextInt(min, max), new NobleKick());
+        super(
+            min + new Random().nextInt(max - min),
+            min + new Random().nextInt(max - min),
+            new NobleKick()
+        );
     }
 
 }
